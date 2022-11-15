@@ -8,13 +8,22 @@
     <title>FORM Validation</title>
 </head>
 <body>
-    <div class="container">
+    <form class="container">
+        <!-- <div><img class="login-user" src="./images/user.jpg" alt="login"/></div> -->
         <div class="login_details">
             <ul>
                 <li><input type="text" name="userName" id="userName" placeholder="Username"></li>
                 <li><input type="password" name="password" id="password" placeholder="Password"></li>
             </ul>
         </div>
-    </div>
+        <div class="remember-forgot">
+            <input type="checkbox" id="remember" name="remember" value="remember">
+            <label for="remember"><small class="smallText">Remember me</small></label>
+            <a href="#"><small class="smallText"><i>Forgot Password?</i></small></a>
+        </div>
+        <div class="submit-login">
+            <input type="submit" id="login_button" value="LOGIN">
+        </div>
+    </form>
 </body>
 </html>
